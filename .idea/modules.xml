@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BlueThinkPractice.iml" filepath="$PROJECT_DIR$/BlueThinkPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Char01/Char01.iml" filepath="$PROJECT_DIR$/Char01/Char01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Char02/Char02.iml" filepath="$PROJECT_DIR$/Char02/Char02.iml" />
     </modules>
   </component>
 </project>
