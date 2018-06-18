@@ -39,5 +39,15 @@ public class Ghost {
 
     public static void main(String[] args) throws Exception{
         Ghost ghost = Ghost.getInstance("IAmBack");
+        System.out.println(ghost);
+
+        String name = ghost.getName();
+        ghost=null;
+        Ghost.removeInstance(name);
+        System.gc();
+        //把CPU让给垃圾回收线程
+        Thread.sleep(3000);
+        ghost=Ghost.getInstance(name);
+        System.out.println(ghost);
     }
 }
